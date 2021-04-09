@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+}
+
+* {
+  text-decoration: none;
+}
+
+@media (max-width: 660px) {
+  .main-content {
+    display: none;
+  }
+
+  .too-small-screen {
+    display: inherit;
+  }
+}
+
+.too-small-screen {
+  display: none;
+}
+
+.navbar {
+  color: aliceblue;
+  display: flex;
+  padding: 1%;
+  background-color: rgb(33, 31, 31);
+  align-items: center;
+}
+
+.navbar-start {
+  flex: 1;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-end {
+  float: right;
+  text-decoration: none;
+}
+
+.brand {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  float: left;
+  font-size: xx-large;
+  text-transform: uppercase;
+}
+
+.navbar-content {
+  position: relative;
+  left: 2%;
+  float: right;
+}
+
+.navbar-item {
+  text-decoration: none;
+  padding: 0.5em;
+  color: aliceblue;
+  transition: background-color 0.5s;
+  border-radius: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-item:hover {
+  text-decoration: none;
+  color: aliceblue;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+}
+
+.container {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 80%;
+  margin: auto;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tjust {
+  text-align: justify;
+}
+
+.heading {
+  text-transform: uppercase;
+  letter-spacing: 0.5ch;
+  font-family: monospace;
+}
+
+hr {
+  margin: 2%;
+}
