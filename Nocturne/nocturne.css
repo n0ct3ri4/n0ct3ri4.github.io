@@ -84,6 +84,14 @@ p {
   text-align: justify;
 }
 
+.tcenter {
+  text-align: center;
+}
+
+.tend {
+  text-align: right;
+}
+
 .heading {
   text-transform: uppercase;
   letter-spacing: 0.5ch;
